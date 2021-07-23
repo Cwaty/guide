@@ -308,7 +308,7 @@ If you want to DM the user who sent the message, you can use `<message>.author.s
 ```js
 const user = <message>.mentions.users.first();
 <message>.channel.send(`Hi, ${user}.`);
-<message>.channel.send('Hi, <@user id>.');
+<message>.channel.send('Hi, <@+user id+>.');
 ```
 
 ::: tip
